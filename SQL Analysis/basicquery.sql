@@ -38,7 +38,8 @@ GROUP BY Constituency_Name;
 
 -- Q.5 Who are the top 5 candidates with the highest total votes?
 
-SELECT  Candidate Name, Total Votes
+SELECT Candidate_Name, Total_Votes
 FROM bihar_election_results
 ORDER BY Total_Votes DESC
 LIMIT 5;
+
